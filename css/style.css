@@ -1,0 +1,96 @@
+/* ======================================== */
+/*              NAVBAR SECTION              */
+/* ======================================== */
+
+.navbar {
+    padding: 20px 0;
+    background-color: #FCF2EF;
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #7081b9;
+    margin-right: 26px;
+}
+
+.nav-link:hover {
+    color: rgb(0, 188, 212);
+}
+
+.btn {
+    display: inline-block;
+    color: #00bcd4;
+    background-color: #fff;
+    border: 1px solid rgba(0, 188, 212, 0.3);;
+    border-radius: .2rem;
+    font-size: 13px !important;
+    font-weight: 500;
+    padding: 8px 16px;
+    font-size: 13px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: #00bcd4 !important;
+    background-color: #fff !important;
+    border: 1px solid rgba(0, 188, 212, 0.3) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* ======================================== */
+/*               HERO SECTION               */
+/* ======================================== */
+.section-hero {
+    background-color: #FCF2EF;
+    background-image: url("/image/hero-background.png");
+    background-size: 105%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.heroimg {
+    width: 98%;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 0 24px;
+}
+
+.hero-content h2 {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.373px;
+    color: #ffc835;
+    margin-bottom: 8px;
+}
+
+.hero-content h1 {
+    font-family: "Frank Ruhl Libre", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    color: rgb(23, 45, 81);
+    margin-bottom: 24px;
+}
+
+.hero-button {
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    background-color: #00bcd4;
+    border-radius: .25rem;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-button:hover{
+    transform: translateY(-2px) !important;
+}

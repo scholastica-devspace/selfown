@@ -24,7 +24,8 @@
     display: inline-block;
     color: #00bcd4;
     background-color: #fff;
-    border: 1px solid rgba(0, 188, 212, 0.3);;
+    border: 1px solid rgba(0, 188, 212, 0.3);
+    ;
     border-radius: .2rem;
     font-size: 13px !important;
     font-weight: 500;
@@ -51,7 +52,12 @@
     background-repeat: no-repeat;
 }
 
-.heroimg {
+.hero-image {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
     width: 98%;
 }
 
@@ -66,6 +72,7 @@
     font-weight: 700;
     line-height: 38.373px;
     color: #ffc835;
+    padding: 4px 16px;
     margin-bottom: 8px;
 }
 
@@ -91,6 +98,6 @@
     transition: 0.3s ease-in-out;
 }
 
-.hero-button:hover{
+.hero-button:hover {
     transform: translateY(-2px) !important;
 }

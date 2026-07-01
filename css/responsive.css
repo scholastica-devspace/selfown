@@ -22,6 +22,10 @@
         margin-right: 10px;
     }
 
+    .navbar-nav {
+        padding: 20px 0;
+    }
+
     .nav-link {
         font-size: 14px;
         margin-right: 0px;
@@ -31,10 +35,6 @@
     .nav-link:focus,
     .nav-link:active {
         color: #7081b9;
-    }
-
-    .navbar-nav {
-        padding: 20px 0;
     }
 
     .btn {
@@ -54,7 +54,14 @@
     /* ======================================== */
     /*               HERO SECTION               */
     /* ======================================== */
+    .hero-image {
+        display: flex;
+        justify-content: center;
+    }
 
+    .hero {
+        width: 80%;
+    }
 
     .hero-content {
         padding: 20px;
@@ -65,19 +72,16 @@
     }
 
     .hero-content h1 {
-        font-size: 42px;
+        font-size: 40px;
         line-height: 46px;
-        margin-bottom: 18px;
+        margin-bottom: 20px;
     }
 
     .hero-button {
         font-size: 14px;
         color: rgb(255, 255, 255) !important;
         background-color: #00bcd4 !important;
-        border-radius: .25rem;
-        padding: 10px 20px;
         transition: none !important;
-
     }
 
     .hero-button:hover {

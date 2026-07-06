@@ -3,8 +3,9 @@
 /* ======================================== */
 
 .navbar {
-    padding: 20px 0;
     background-color: #FCF2EF;
+    padding: 20px 0;
+
 }
 
 .nav-link {
@@ -21,16 +22,17 @@
 }
 
 .btn {
-    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: 19.5px;
     color: #00bcd4;
+
+    display: inline-block;
     background-color: #fff;
     border: 1px solid rgba(0, 188, 212, 0.3);
-    ;
     border-radius: .2rem;
-    font-size: 13px !important;
-    font-weight: 500;
     padding: 8px 16px;
-    font-size: 13px;
     transition: 0.3s ease-in-out;
 }
 
@@ -44,6 +46,7 @@
 /* ======================================== */
 /*               HERO SECTION               */
 /* ======================================== */
+
 .section-hero {
     background-color: #FCF2EF;
     background-image: url("/image/hero-background.png");
@@ -100,4 +103,305 @@
 
 .hero-button:hover {
     transform: translateY(-2px) !important;
+}
+
+/* ======================================== */
+/*             DETAILS SECTION              */
+/* ======================================== */
+
+.section-details {
+    padding: 90px;
+}
+
+.f24 {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: rgb(23, 45, 81);
+    margin: 0px;
+
+}
+
+.f20 {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(48, 62, 103);
+    padding: 20px 0;
+    width: 550px;
+    margin: 0px;
+}
+
+
+
+.icons .fa-brands {
+    font-size: 20px;
+    color: #8997bd;
+    margin-right: 10px;
+    border: 1px solid #8997bd;
+    border-radius: 100%;
+    padding: 10px 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f16 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    color: rgb(22, 28, 45);
+}
+
+span {
+    color: rgb(112, 129, 185);
+}
+
+/* ======================================== */
+/*           EXPERIENCE SECTION             */
+/* ======================================== */
+.section-experience {
+    padding-bottom: 90px;
+}
+
+.section-experience .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    width: 220px;
+    margin: 0px;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .075);
+}
+
+.card img {
+    width: 40px;
+}
+
+.mongo img {
+    width: 20px;
+}
+
+.section-experience .f16 {
+    line-height: 19.2px;
+    color: rgb(48, 62, 103);
+}
+
+.f12 {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: rgb(111, 128, 155);
+}
+
+/* ======================================== */
+/*           SERVICES SECTION             */
+/* ======================================== */
+
+.section-services {
+    background-color: #FBFDFE;
+    padding: 90px 0;
+}
+
+.fa-layer-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 4px !important;
+    color: #f78c4b;
+    background-color: rgba(247, 140, 75, 0.1);
+    margin: 0;
+}
+
+.fa-dollar-sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 4px !important;
+    background-color: rgba(55, 125, 255, 0.1);
+    color: #377dff;
+    margin: 0;
+}
+
+.fa-square-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 4px !important;
+    background-color: rgba(105, 195, 128, 0.1);
+    color: #69c380;
+    margin: 0;
+}
+
+.f22 {
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.4px;
+    color: rgb(23, 45, 81);
+    margin: 24px 0;
+}
+
+.f17 {
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: rgb(111, 128, 155);
+    width: 290px;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ======================================== */
+/*           EDUCATION SECTION              */
+/* ======================================== */
+
+.section-education {
+    padding: 90px 0;
+}
+
+.section-education .row {
+    padding: 40px 0;
+    border-bottom: 1px dashed #E5E7EB;
+
+}
+
+.education-image {
+    background-color: #F9FBFD;
+    display: flex;
+    justify-content: center;
+}
+
+.education-image img {
+    width: 60%;
+}
+
+.accordion {
+    margin-left: 20px;
+}
+
+.accordion-collapse {
+    background-color: white !important;
+}
+
+.accordion-item {
+    border: 1px solid transparent;
+    border-bottom: 1px dashed #E5E7EB;
+}
+
+.accordion-header {
+    background-color: white !important;
+    border: 1px solid transparent;
+}
+
+.accordion-button {
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20.4px;
+    color: rgb(22, 28, 45);
+    background-color: white !important;
+    position: relative;
+}
+
+.accordion-button::after {
+    color: rgb(0, 188, 212);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 16.8px;
+    background-image: none;
+    content: "+";
+    transform: translateY(-0%) rotate(0deg);
+    transition: 0.4s;
+    position: absolute;
+    left: -10px;
+}
+
+.accordion-button:not(.collapsed):after {
+    color: rgb(0, 188, 212);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 16.8px;
+    background-image: none;
+    content: "-";
+    transform: translateY(-10%) rotate(0deg);
+    transition: 0.4s;
+}
+
+.accordion-button::before {
+    color: rgb(0, 188, 212);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    background-image: none;
+    transform: translateY(-0%) rotate(0deg);
+    transition: 0.4s;
+    position: absolute;
+    right: 0px;
+}
+
+.accordion-item:nth-child(1) .accordion-button::before {
+    content: "2010 - 2012";
+}
+
+.accordion-item:nth-child(2) .accordion-button::before {
+    content: "2007 - 2010";
+}
+
+.accordion-item:nth-child(3) .accordion-button::before {
+    content: "1999 -  2007";
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(22, 28, 45);
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: 1px 1px 1px transparent;
+}
+
+.accordion-body {
+    background-color: #F9FBFD;
+    border: 1px solid transparent;
+    border-top: 1px dashed #E5E7EB;
+    padding: 24px 32px;
+}
+
+.accordion-body span {
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27.2px;
+    color: rgb(23, 45, 81);
 }

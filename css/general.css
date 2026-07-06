@@ -1,35 +1,57 @@
-/* general heading 
-font-family: Inter, sans-serif;
-font-size: 32px;
-font-weight: 500;
-line-height: 32px;
-color: rgb(23, 45, 81);
-
-
-
-general subtitle 
-font-family: Inter, sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 36px;
-color: rgb(48, 62, 103); */
-
-
-
-*{
+* {
     padding: 0;
-    margin: 0 auto ;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.section-hero .row{
+.section-hero .row {
     align-items: center;
+}
+
+.commomn-text {
+    text-align: center;
+}
+
+.commomn-text h2 {
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    color: rgb(105, 195, 128);
+    background-color: rgba(105,195,128,0.1);
+    padding: 7px 14px;
+    border-radius: 4px;
+}
+
+
+
+.commomn-text h3 {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgb(23, 45, 81);
+    margin: 16px 0;
+}
+
+
+
+.commomn-text h4 {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgb(48, 62, 103);
+    width: 600px;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
 }
